@@ -1,0 +1,358 @@
+[22-Dec-2014 16:52:54 UTC] PHP Warning:  imagepng(http://www.tvoop.us/magestic/tmp/024.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/arashaga/public_html/magestic/phpqrcode/qrimage.php on line 43
+[22-Dec-2014 16:54:31 UTC] PHP Warning:  imagepng(http://www.tvoop.us/magestic/tmp/025.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/arashaga/public_html/magestic/phpqrcode/qrimage.php on line 43
+[22-Dec-2014 16:55:25 UTC] PHP Warning:  imagepng(http://www.tvoop.us/magestic/tmp/025.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/arashaga/public_html/magestic/phpqrcode/qrimage.php on line 43
+[22-Dec-2014 16:56:18 UTC] PHP Warning:  imagepng(http://www.tvoop.us/magestic/tmp/025.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/arashaga/public_html/magestic/phpqrcode/qrimage.php on line 43
+[22-Dec-2014 17:33:48 UTC] PHP Fatal error:  Call to undefined function __() in /home/arashaga/public_html/magestic/webhook.php on line 45
+[22-Dec-2014 17:50:18 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 4
+[22-Dec-2014 17:50:19 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[22-Dec-2014 17:50:20 UTC] Stripe Notice: Undefined property of Stripe_Customer instance: card
+[22-Dec-2014 17:50:48 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 25
+[22-Dec-2014 17:54:51 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 25
+[22-Dec-2014 17:54:57 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 26
+[22-Dec-2014 17:55:00 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 26
+[22-Dec-2014 17:56:08 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/arashaga/public_html/magestic/webhook.php on line 23
+[22-Dec-2014 17:56:50 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/arashaga/public_html/magestic/webhook.php on line 23
+[22-Dec-2014 18:11:53 UTC] Stripe Notice: Undefined property of Stripe_Customer instance: card
+[22-Dec-2014 18:12:07 UTC] Stripe Notice: Undefined property of Stripe_Customer instance: card
+[22-Dec-2014 18:12:41 UTC] Stripe Notice: Undefined property of Stripe_Customer instance: card
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Undefined variable: event in /home/arashaga/public_html/magestic/webhook.php on line 39
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 39
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 39
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Undefined variable: event in /home/arashaga/public_html/magestic/webhook.php on line 42
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 42
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Undefined variable: event in /home/arashaga/public_html/magestic/webhook.php on line 63
+[22-Dec-2014 18:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 63
+[22-Dec-2014 18:24:11 UTC] PHP Notice:  Undefined variable: event in /home/arashaga/public_html/magestic/webhook.php on line 42
+[22-Dec-2014 18:24:11 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 42
+[22-Dec-2014 18:24:11 UTC] PHP Notice:  Undefined variable: event in /home/arashaga/public_html/magestic/webhook.php on line 63
+[22-Dec-2014 18:24:11 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 63
+[22-Dec-2014 18:28:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/arashaga/public_html/magestic/webhook.php on line 53
+[22-Dec-2014 18:30:56 UTC] PHP Warning:  htmlspecialchars() expects parameter 2 to be long, string given in /home/arashaga/public_html/magestic/webhook.php on line 53
+[22-Dec-2014 18:30:56 UTC] PHP Notice:  Undefined variable: customer_name in /home/arashaga/public_html/magestic/webhook.php on line 55
+[22-Dec-2014 18:31:45 UTC] PHP Warning:  htmlspecialchars() expects parameter 2 to be long, string given in /home/arashaga/public_html/magestic/webhook.php on line 53
+[22-Dec-2014 18:31:45 UTC] PHP Notice:  Undefined variable: customer_name in /home/arashaga/public_html/magestic/webhook.php on line 55
+[22-Dec-2014 19:01:57 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 4
+[22-Dec-2014 19:01:57 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 19:01:57 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 19:01:58 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(17): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[22-Dec-2014 19:18:49 UTC] PHP Notice:  Undefined property: stdClass::$metadata in /home/arashaga/public_html/magestic/webhook.php on line 51
+[22-Dec-2014 19:18:49 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 51
+[22-Dec-2014 19:20:19 UTC] PHP Notice:  Undefined property: stdClass::$metadata in /home/arashaga/public_html/magestic/webhook.php on line 51
+[22-Dec-2014 19:20:19 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 51
+[22-Dec-2014 20:25:53 UTC] PHP Fatal error:  Call to undefined function equire_once() in /home/arashaga/public_html/magestic/webhook.php on line 4
+[22-Dec-2014 20:26:23 UTC] PHP Notice:  Undefined variable: headers in /home/arashaga/public_html/magestic/webhook.php on line 60
+[22-Dec-2014 20:26:23 UTC] PHP Notice:  Undefined variable: fname in /home/arashaga/public_html/magestic/utility.php on line 110
+[22-Dec-2014 20:26:23 UTC] PHP Notice:  Undefined variable: lname in /home/arashaga/public_html/magestic/utility.php on line 111
+[22-Dec-2014 20:26:53 UTC] PHP Notice:  Undefined variable: headers in /home/arashaga/public_html/magestic/webhook.php on line 60
+[22-Dec-2014 20:26:53 UTC] PHP Notice:  Undefined variable: fname in /home/arashaga/public_html/magestic/utility.php on line 110
+[22-Dec-2014 20:26:53 UTC] PHP Notice:  Undefined variable: lname in /home/arashaga/public_html/magestic/utility.php on line 111
+[22-Dec-2014 20:38:08 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 20:54:58 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 20:56:36 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:06:22 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:06:22 UTC] PHP Notice:  Undefined variable: img in /home/arashaga/public_html/magestic/utility.php on line 114
+[22-Dec-2014 21:10:03 UTC] PHP Warning:  Missing argument 4 for sendConfirmationEmail(), called in /home/arashaga/public_html/magestic/magestic.php on line 123 and defined in /home/arashaga/public_html/magestic/utility.php on line 107
+[22-Dec-2014 21:14:20 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:17:59 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:20:28 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:21:35 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:24:05 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:25:52 UTC] PHP Notice:  Undefined property: stdClass::$fullname in /home/arashaga/public_html/magestic/webhook.php on line 52
+[22-Dec-2014 21:27:54 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[22-Dec-2014 22:15:44 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[22-Dec-2014 22:18:05 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 4
+[22-Dec-2014 22:18:05 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 22:18:05 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 22:18:06 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(18): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[22-Dec-2014 22:18:27 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 4
+[22-Dec-2014 22:18:27 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 22:18:27 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 5
+[22-Dec-2014 22:18:27 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(18): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[23-Dec-2014 15:52:43 UTC] PHP Parse error:  syntax error, unexpected '$dbh' (T_VARIABLE), expecting catch (T_CATCH) in /home/arashaga/public_html/magestic/utility.php on line 162
+[23-Dec-2014 15:53:24 UTC] PHP Parse error:  syntax error, unexpected '$dbh' (T_VARIABLE), expecting catch (T_CATCH) in /home/arashaga/public_html/magestic/utility.php on line 162
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined property: stdClass::$guest1 in /home/arashaga/public_html/magestic/webhook.php on line 53
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined property: stdClass::$guest2 in /home/arashaga/public_html/magestic/webhook.php on line 54
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined property: stdClass::$guest3 in /home/arashaga/public_html/magestic/webhook.php on line 55
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook.php on line 56
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined variable: guest1 in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined variable: condeContents in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined variable: guest2 in /home/arashaga/public_html/magestic/utility.php on line 96
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined variable: guest3 in /home/arashaga/public_html/magestic/utility.php on line 97
+[24-Dec-2014 01:34:37 UTC] PHP Notice:  Undefined variable: guest4 in /home/arashaga/public_html/magestic/utility.php on line 98
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined property: stdClass::$guest1 in /home/arashaga/public_html/magestic/webhook.php on line 53
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined property: stdClass::$guest2 in /home/arashaga/public_html/magestic/webhook.php on line 54
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined property: stdClass::$guest3 in /home/arashaga/public_html/magestic/webhook.php on line 55
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook.php on line 56
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined variable: guest1 in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined variable: condeContents in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined variable: guest2 in /home/arashaga/public_html/magestic/utility.php on line 96
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined variable: guest3 in /home/arashaga/public_html/magestic/utility.php on line 97
+[24-Dec-2014 01:34:40 UTC] PHP Notice:  Undefined variable: guest4 in /home/arashaga/public_html/magestic/utility.php on line 98
+[24-Dec-2014 22:44:09 UTC] PHP Notice:  Undefined variable: guest1 in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 22:44:09 UTC] PHP Notice:  Undefined variable: condeContents in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 22:44:09 UTC] PHP Notice:  Undefined variable: guest2 in /home/arashaga/public_html/magestic/utility.php on line 96
+[24-Dec-2014 22:44:09 UTC] PHP Notice:  Undefined variable: guest3 in /home/arashaga/public_html/magestic/utility.php on line 97
+[24-Dec-2014 22:44:09 UTC] PHP Notice:  Undefined variable: guest4 in /home/arashaga/public_html/magestic/utility.php on line 98
+[24-Dec-2014 22:47:31 UTC] PHP Notice:  Undefined variable: condeContents in /home/arashaga/public_html/magestic/utility.php on line 95
+[24-Dec-2014 22:58:09 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 5
+[24-Dec-2014 22:58:10 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(31): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[24-Dec-2014 23:13:33 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook.php on line 56
+[24-Dec-2014 23:14:00 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook.php on line 56
+[24-Dec-2014 23:55:53 UTC] PHP Fatal error:  Cannot redeclare check_customer_allowance() (previously declared in /home/arashaga/public_html/magestic/utility.php:57) in /home/arashaga/public_html/magestic/utility.php on line 116
+[24-Dec-2014 23:57:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/arashaga/public_html/magestic/utility.php on line 116
+[25-Dec-2014 04:24:58 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 56
+[25-Dec-2014 16:17:24 UTC] PHP Notice:  Undefined property: stdClass::$email in /home/arashaga/public_html/magestic/webhook2.php on line 53
+[25-Dec-2014 16:17:24 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 57
+[25-Dec-2014 16:17:28 UTC] PHP Notice:  Undefined property: stdClass::$email in /home/arashaga/public_html/magestic/webhook2.php on line 53
+[25-Dec-2014 16:17:28 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 57
+[25-Dec-2014 17:14:16 UTC] PHP Notice:  Undefined index: email in /home/arashaga/public_html/magestic/charge2.php on line 6
+[25-Dec-2014 17:14:24 UTC] PHP Notice:  Undefined property: stdClass::$email in /home/arashaga/public_html/magestic/webhook2.php on line 53
+[25-Dec-2014 17:35:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/arashaga/public_html/magestic/utility.php on line 122
+[25-Dec-2014 17:47:23 UTC] PHP Notice:  Undefined property: stdClass::$email in /home/arashaga/public_html/magestic/webhook2.php on line 53
+[25-Dec-2014 17:56:33 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 57
+[25-Dec-2014 18:08:08 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 57
+[25-Dec-2014 20:08:36 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 59
+[25-Dec-2014 20:08:43 UTC] PHP Notice:  Undefined property: stdClass::$guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 59
+[25-Dec-2014 20:11:19 UTC] PHP Notice:  Undefined variable: guest2 in /home/arashaga/public_html/magestic/webhook2.php on line 62
+[25-Dec-2014 20:11:19 UTC] PHP Notice:  Undefined variable: guest3 in /home/arashaga/public_html/magestic/webhook2.php on line 62
+[25-Dec-2014 20:11:19 UTC] PHP Notice:  Undefined variable: guest4 in /home/arashaga/public_html/magestic/webhook2.php on line 62
+[26-Dec-2014 00:06:27 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/arashaga/public_html/magestic/utility.php on line 135
+[26-Dec-2014 00:12:53 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/arashaga/public_html/magestic/utility.php on line 135
+[26-Dec-2014 00:16:01 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/arashaga/public_html/magestic/utility.php on line 135
+[26-Dec-2014 00:25:04 UTC] PHP Notice:  Undefined variable: temail in /home/arashaga/public_html/magestic/utility.php on line 136
+[26-Dec-2014 00:25:24 UTC] PHP Notice:  Undefined variable: temail in /home/arashaga/public_html/magestic/utility.php on line 136
+[26-Dec-2014 00:25:43 UTC] PHP Notice:  Undefined variable: temail in /home/arashaga/public_html/magestic/utility.php on line 136
+[26-Dec-2014 01:48:18 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/arashaga/public_html/magestic/utility.php on line 137
+[26-Dec-2014 01:49:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/arashaga/public_html/magestic/utility.php on line 137
+[26-Dec-2014 01:50:35 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/arashaga/public_html/magestic/utility.php on line 137
+[26-Dec-2014 01:50:55 UTC] PHP Notice:  Undefined variable: gues1 in /home/arashaga/public_html/magestic/utility.php on line 140
+[26-Dec-2014 01:50:55 UTC] PHP Notice:  Undefined variable: guest2 in /home/arashaga/public_html/magestic/utility.php on line 140
+[26-Dec-2014 01:53:35 UTC] PHP Notice:  Undefined variable: gues1 in /home/arashaga/public_html/magestic/utility.php on line 141
+[26-Dec-2014 01:57:09 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/arashaga/public_html/magestic/utility.php on line 140
+[26-Dec-2014 17:49:32 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 5
+[26-Dec-2014 17:49:32 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 6
+[26-Dec-2014 17:49:32 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 6
+[26-Dec-2014 17:49:34 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(31): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[26-Dec-2014 23:18:29 UTC] PHP Warning:  Missing argument 9 for createUserRecord(), called in /home/arashaga/public_html/magestic/utility.php on line 141 and defined in /home/arashaga/public_html/magestic/utility.php on line 157
+[26-Dec-2014 23:18:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/arashaga/public_html/magestic/utility.php on line 163
+[26-Dec-2014 23:20:31 UTC] PHP Warning:  Missing argument 9 for createUserRecord(), called in /home/arashaga/public_html/magestic/utility.php on line 141 and defined in /home/arashaga/public_html/magestic/utility.php on line 157
+[26-Dec-2014 23:20:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/arashaga/public_html/magestic/utility.php on line 163
+[27-Dec-2014 16:54:23 UTC] PHP Notice:  Undefined variable: invoice in /home/arashaga/public_html/magestic/webhook2.php on line 65
+[27-Dec-2014 16:54:23 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook2.php on line 65
+[27-Dec-2014 17:22:55 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 5
+[27-Dec-2014 17:22:55 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 6
+[27-Dec-2014 17:22:55 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 6
+[27-Dec-2014 17:22:57 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(31): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[27-Dec-2014 20:56:52 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge.php on line 5
+[27-Dec-2014 20:56:52 UTC] PHP Notice:  Undefined index: fname in /home/arashaga/public_html/magestic/charge.php on line 6
+[27-Dec-2014 20:56:52 UTC] PHP Notice:  Undefined index: lname in /home/arashaga/public_html/magestic/charge.php on line 6
+[27-Dec-2014 20:56:53 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge.php(31): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[27-Dec-2014 20:56:58 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/arashaga/public_html/magestic/utility.php on line 186
+[27-Dec-2014 23:10:02 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/arashaga/public_html/magestic/admin.php on line 34
+[27-Dec-2014 23:10:33 UTC] PHP Notice:  Use of undefined constant flase - assumed 'flase' in /home/arashaga/public_html/magestic/config.php on line 10
+[27-Dec-2014 23:10:34 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/arashaga/public_html/magestic/utility.php on line 186
+[27-Dec-2014 23:11:47 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/arashaga/public_html/magestic/utility.php on line 205
+[27-Dec-2014 23:12:13 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/arashaga/public_html/magestic/admin.php on line 34
+[27-Dec-2014 23:15:00 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/arashaga/public_html/magestic/admin.php on line 34
+[27-Dec-2014 23:15:02 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/arashaga/public_html/magestic/admin.php on line 34
+[27-Dec-2014 23:15:06 UTC] PHP Notice:  Use of undefined constant Falase - assumed 'Falase' in /home/arashaga/public_html/magestic/utility.php on line 207
+[27-Dec-2014 23:15:06 UTC] PHP Notice:  Undefined variable: session_name in /home/arashaga/public_html/magestic/utility.php on line 218
+[27-Dec-2014 23:15:06 UTC] PHP Warning:  session_name(): session.name cannot be a numeric or empty '' in /home/arashaga/public_html/magestic/utility.php on line 218
+[27-Dec-2014 23:15:06 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:15:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:15:07 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:16:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:17:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:19:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 417
+[27-Dec-2014 23:19:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 420
+[27-Dec-2014 23:19:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 421
+[27-Dec-2014 23:19:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:19:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 417
+[27-Dec-2014 23:19:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 420
+[27-Dec-2014 23:19:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 421
+[27-Dec-2014 23:19:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:20:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:20:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 208
+[27-Dec-2014 23:21:59 UTC] PHP Notice:  Undefined variable: sessionName in /home/arashaga/public_html/magestic/utility.php on line 218
+[27-Dec-2014 23:21:59 UTC] PHP Warning:  session_name(): session.name cannot be a numeric or empty '' in /home/arashaga/public_html/magestic/utility.php on line 218
+[27-Dec-2014 23:21:59 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:21:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:21:59 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:22:29 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:22:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:22:29 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:24:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 417
+[27-Dec-2014 23:24:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 420
+[27-Dec-2014 23:24:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 421
+[27-Dec-2014 23:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 417
+[27-Dec-2014 23:24:42 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 420
+[27-Dec-2014 23:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 421
+[27-Dec-2014 23:24:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 417
+[27-Dec-2014 23:24:43 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 420
+[27-Dec-2014 23:24:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 421
+[27-Dec-2014 23:25:28 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:25:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:25:28 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:26:06 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:26:06 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:26:06 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:26:53 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:26:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:26:53 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:30:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:30:32 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:32:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:32:10 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:35:28 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/arashaga/public_html/magestic/utility.php on line 244
+[27-Dec-2014 23:35:32 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/arashaga/public_html/magestic/utility.php on line 244
+[27-Dec-2014 23:36:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/arashaga/public_html/magestic/utility.php on line 291
+[27-Dec-2014 23:37:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting catch (T_CATCH) in /home/arashaga/public_html/magestic/utility.php on line 288
+[27-Dec-2014 23:37:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:37:34 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:38:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:38:37 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:39:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:39:28 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[27-Dec-2014 23:41:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[27-Dec-2014 23:41:08 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 00:10:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 00:10:53 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:17:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:17:19 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:24:00 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/arashaga/public_html/magestic/utility.php on line 284
+[28-Dec-2014 16:24:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:24:58 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:35:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:35:03 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 425
+[28-Dec-2014 16:40:16 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 428
+[28-Dec-2014 16:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 429
+[28-Dec-2014 16:40:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:40:37 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:44:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:44:46 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:44:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:44:47 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:47:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:47:50 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:47:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:30) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:47:51 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:49:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:49:45 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:49:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:49:46 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:50:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 425
+[28-Dec-2014 16:50:04 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 428
+[28-Dec-2014 16:50:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 429
+[28-Dec-2014 16:50:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 425
+[28-Dec-2014 16:50:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/arashaga/public_html/magestic/utility.php on line 428
+[28-Dec-2014 16:50:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 429
+[28-Dec-2014 16:50:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:50:25 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[28-Dec-2014 16:50:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/arashaga/public_html/magestic/admin.php:2) in /home/arashaga/public_html/magestic/utility.php on line 219
+[28-Dec-2014 16:50:26 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/arashaga/public_html/magestic/utility.php on line 220
+[31-Dec-2014 17:39:43 UTC] PHP Notice:  Undefined variable: img in /home/arashaga/public_html/magestic/utility.php on line 127
+[31-Dec-2014 17:39:44 UTC] PHP Notice:  Undefined variable: fname in /home/arashaga/public_html/magestic/utility.php on line 132
+[31-Dec-2014 17:39:44 UTC] PHP Notice:  Undefined variable: lname in /home/arashaga/public_html/magestic/utility.php on line 132
+[31-Dec-2014 17:42:42 UTC] PHP Notice:  Undefined variable: img in /home/arashaga/public_html/magestic/utility.php on line 127
+[31-Dec-2014 17:42:42 UTC] PHP Notice:  Use of undefined constant SMTP - assumed 'SMTP' in /home/arashaga/public_html/magestic/utility.php on line 139
+[31-Dec-2014 17:42:42 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 142
+[31-Dec-2014 17:42:42 UTC] PHP Fatal error:  Call to undefined method stdClass::addAddress() in /home/arashaga/public_html/magestic/utility.php on line 144
+[31-Dec-2014 17:44:57 UTC] PHP Notice:  Undefined variable: img in /home/arashaga/public_html/magestic/utility.php on line 128
+[31-Dec-2014 17:44:57 UTC] PHP Notice:  Use of undefined constant SMTP - assumed 'SMTP' in /home/arashaga/public_html/magestic/utility.php on line 139
+[31-Dec-2014 17:44:57 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 142
+[31-Dec-2014 17:44:57 UTC] PHP Fatal error:  Call to undefined method stdClass::addAddress() in /home/arashaga/public_html/magestic/utility.php on line 144
+[31-Dec-2014 17:46:23 UTC] PHP Notice:  Undefined variable: img in /home/arashaga/public_html/magestic/utility.php on line 128
+[31-Dec-2014 17:46:23 UTC] PHP Notice:  Use of undefined constant SMTP - assumed 'SMTP' in /home/arashaga/public_html/magestic/utility.php on line 139
+[31-Dec-2014 17:46:23 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 142
+[31-Dec-2014 17:46:23 UTC] PHP Fatal error:  Call to undefined method stdClass::addAddress() in /home/arashaga/public_html/magestic/utility.php on line 144
+[31-Dec-2014 17:47:31 UTC] PHP Notice:  Use of undefined constant SMTP - assumed 'SMTP' in /home/arashaga/public_html/magestic/utility.php on line 143
+[31-Dec-2014 17:47:31 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 146
+[31-Dec-2014 17:47:31 UTC] PHP Fatal error:  Call to undefined method stdClass::addAddress() in /home/arashaga/public_html/magestic/utility.php on line 148
+[31-Dec-2014 17:49:27 UTC] PHP Notice:  Use of undefined constant SMTP - assumed 'SMTP' in /home/arashaga/public_html/magestic/utility.php on line 141
+[31-Dec-2014 17:55:00 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 147
+[31-Dec-2014 17:55:00 UTC] PHP Fatal error:  Call to undefined method stdClass::addAddress() in /home/arashaga/public_html/magestic/utility.php on line 149
+[31-Dec-2014 18:05:00 UTC] PHP Warning:  Creating default object from empty value in /home/arashaga/public_html/magestic/utility.php on line 145
+[31-Dec-2014 18:40:41 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[31-Dec-2014 18:40:51 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook2.php on line 16
+[31-Dec-2014 18:52:31 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook2.php on line 16
+[01-Jan-2015 11:37:44 UTC] PHP Notice:  Undefined index: stripeToken in /home/arashaga/public_html/magestic/charge2.php on line 5
+[01-Jan-2015 11:37:44 UTC] PHP Notice:  Undefined index: customerEmail in /home/arashaga/public_html/magestic/charge2.php on line 6
+[01-Jan-2015 11:37:46 UTC] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php:159
+Stack trace:
+#0 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(219): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array)
+#1 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php(115): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402)
+#2 /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiResource.php(117): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/arashaga/public_html/magestic/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/arashaga/public_html/magestic/charge2.php(31): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/arashaga/public_html/magestic/stripe/lib/Stripe/ApiRequestor.php on line 159
+[02-Jan-2015 18:39:33 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[02-Jan-2015 18:51:48 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[02-Jan-2015 18:52:58 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/webhook.php on line 28
+[02-Jan-2015 18:55:26 UTC] PHP Notice:  Undefined property: stdClass::$email in /home/arashaga/public_html/magestic/webhook2.php on line 43
+[02-Jan-2015 19:24:06 UTC] PHP Parse error:  syntax error, unexpected '$date' (T_VARIABLE) in /home/arashaga/public_html/magestic/utility.php on line 232

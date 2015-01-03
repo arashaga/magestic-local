@@ -1,0 +1,276 @@
+[27-Dec-2014 23:26:13 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/arashaga/public_html/magestic/admin/process_login.php on line 5
+[27-Dec-2014 23:27:01 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 235
+[27-Dec-2014 23:30:40 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 236
+[27-Dec-2014 23:32:16 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 236
+[27-Dec-2014 23:37:40 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 235
+[27-Dec-2014 23:38:27 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 235
+[27-Dec-2014 23:38:43 UTC] PHP Fatal error:  Call to undefined method PDOStatement::store_result() in /home/arashaga/public_html/magestic/utility.php on line 237
+[27-Dec-2014 23:39:01 UTC] PHP Fatal error:  Call to undefined method PDOStatement::store_result() in /home/arashaga/public_html/magestic/utility.php on line 237
+[27-Dec-2014 23:39:35 UTC] PHP Fatal error:  Call to undefined method PDOStatement::storeResult() in /home/arashaga/public_html/magestic/utility.php on line 237
+[27-Dec-2014 23:41:16 UTC] PHP Notice:  Undefined property: PDOStatement::$num_rows in /home/arashaga/public_html/magestic/utility.php on line 247
+[27-Dec-2014 23:41:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[27-Dec-2014 23:42:44 UTC] PHP Notice:  Undefined property: PDOStatement::$rowCount in /home/arashaga/public_html/magestic/utility.php on line 247
+[27-Dec-2014 23:42:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[27-Dec-2014 23:43:11 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 304
+[28-Dec-2014 00:04:25 UTC] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/arashaga/public_html/magestic/utility.php on line 304
+[28-Dec-2014 00:05:01 UTC] PHP Notice:  Undefined variable: db_password in /home/arashaga/public_html/magestic/utility.php on line 258
+[28-Dec-2014 00:05:01 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 279
+[28-Dec-2014 00:05:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 00:11:03 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 279
+[28-Dec-2014 00:11:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 00:13:09 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 281
+[28-Dec-2014 00:13:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:15:10 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 283
+[28-Dec-2014 16:15:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:16:24 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 283
+[28-Dec-2014 16:16:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:17:29 UTC] PHP Notice:  Undefined variable: user_id in /home/arashaga/public_html/magestic/utility.php on line 284
+[28-Dec-2014 16:17:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:25:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:35:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:37:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 16
+[28-Dec-2014 16:37:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:40:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:44:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:226) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:53:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:243) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:55:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:243) in /home/arashaga/public_html/magestic/admin/process_login.php on line 13
+[28-Dec-2014 16:57:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arashaga/public_html/magestic/utility.php:243) in /home/arashaga/public_html/magestic/admin/process_login.php on line 14
+[29-Dec-2014 15:28:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[29-Dec-2014 16:09:14 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 136
+[29-Dec-2014 16:09:31 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 136
+[29-Dec-2014 16:09:50 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:10:15 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:12:39 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:13:14 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:13:16 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:18:40 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 16:36:04 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 17:19:48 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:20:34 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:20:46 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:21:02 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:21:04 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:21:04 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:21:08 UTC] PHP Fatal error:  Class 'jui_datagrid' not found in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 91
+[29-Dec-2014 17:32:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/arashaga/public_html/magestic/admin/jui_filter_rules.php on line 43
+[29-Dec-2014 17:33:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 64
+[29-Dec-2014 17:34:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 112
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 197
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 198
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 600
+[29-Dec-2014 17:35:05 UTC] PHP Notice:  Undefined variable: a_data in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 584
+[29-Dec-2014 17:36:50 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:36:50 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:36:50 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:36:50 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:36:50 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 198
+[29-Dec-2014 17:36:50 UTC] PHP Fatal error:  Call to undefined method PDOStatement::data_seek() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 248
+[29-Dec-2014 17:37:31 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:37:31 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:37:31 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:37:31 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:37:31 UTC] PHP Fatal error:  Call to undefined method PDOStatement::data_seek() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 250
+[29-Dec-2014 17:42:49 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:42:49 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:42:49 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:42:49 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:42:49 UTC] PHP Fatal error:  Call to undefined method PDOStatement::data_seek() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 250
+[29-Dec-2014 17:42:52 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:42:52 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:42:52 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:42:52 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:42:52 UTC] PHP Fatal error:  Call to undefined method PDOStatement::data_seek() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 250
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 353
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 354
+[29-Dec-2014 17:43:40 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 602
+[29-Dec-2014 17:46:54 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:46:54 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:46:54 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:46:54 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:46:54 UTC] PHP Notice:  Undefined property: jui_datagrid::$db_settings in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 607
+[29-Dec-2014 17:47:28 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:47:28 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:47:28 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:47:28 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:48:56 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:48:56 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:48:56 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:48:56 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:49:03 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 17:49:03 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:49:03 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:49:03 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 17:50:02 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 17:50:02 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 17:50:02 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 17:50:02 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:00:50 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:00:50 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:00:50 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:00:50 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:02:33 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:02:33 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:02:33 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:02:33 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:03:53 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:03:53 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:03:53 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:03:53 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:03:53 UTC] PHP Notice:  Undefined variable: offest in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 422
+[29-Dec-2014 18:04:51 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:04:51 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:04:51 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:04:51 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:08:05 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:08:05 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:08:05 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:08:05 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:08:56 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:08:56 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:08:56 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:08:56 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:08:56 UTC] PHP Notice:  Array to string conversion in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 425
+[29-Dec-2014 18:09:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 425
+[29-Dec-2014 18:09:38 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:09:38 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:09:38 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:09:38 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:11:19 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:11:19 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:11:19 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:11:19 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:16:12 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:16:12 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:16:12 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:16:12 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:16:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 503
+[29-Dec-2014 18:18:04 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:18:04 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:18:04 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:18:04 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:18:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:04 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:19:04 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:19:04 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:19:04 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:19:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:19:10 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 137
+[29-Dec-2014 18:19:10 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 142
+[29-Dec-2014 18:19:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 266
+[29-Dec-2014 18:19:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 350
+[29-Dec-2014 18:19:10 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 359
+[29-Dec-2014 18:19:10 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 18:19:18 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 137
+[29-Dec-2014 18:19:18 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 142
+[29-Dec-2014 18:19:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 266
+[29-Dec-2014 18:19:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 350
+[29-Dec-2014 18:19:18 UTC] PHP Notice:  Trying to get property of non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 359
+[29-Dec-2014 18:19:18 UTC] PHP Fatal error:  Call to a member function free() on a non-object in /home/arashaga/public_html/magestic/admin/dacapo.class.php on line 371
+[29-Dec-2014 18:19:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:19:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:12 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:12 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:12 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:44 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:20:57 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:20:57 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 44
+[29-Dec-2014 18:20:57 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 45
+[29-Dec-2014 18:20:57 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 50
+[29-Dec-2014 18:20:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:21:22 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 41
+[29-Dec-2014 18:21:22 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 18:21:22 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:21:22 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 48
+[29-Dec-2014 18:21:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:21:24 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 41
+[29-Dec-2014 18:21:24 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 18:21:24 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:21:24 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 48
+[29-Dec-2014 18:21:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:23:13 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:23:13 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:23:13 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:24:12 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 41
+[29-Dec-2014 18:24:12 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 18:24:12 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 18:24:12 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 48
+[29-Dec-2014 18:24:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:24:17 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:24:17 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:24:17 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:31:09 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 41
+[29-Dec-2014 18:31:09 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 18:31:09 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 18:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:31:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:31:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[29-Dec-2014 18:36:35 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:36:35 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:36:35 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:36:59 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:36:59 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:36:59 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:37:27 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:37:27 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:37:27 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:38:23 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:38:23 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:38:23 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:01 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:01 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:01 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:03 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:03 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:39:03 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:40:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:40:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:40:39 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:47:04 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:47:04 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:47:04 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:49:16 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:49:16 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 18:49:16 UTC] PHP Notice:  Undefined index: visible in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 501
+[29-Dec-2014 22:05:38 UTC] PHP Notice:  Undefined index: page_num in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 41
+[29-Dec-2014 22:05:38 UTC] PHP Notice:  Undefined index: rows_per_page in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 42
+[29-Dec-2014 22:05:38 UTC] PHP Notice:  Undefined index: columns in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 43
+[29-Dec-2014 22:05:38 UTC] PHP Notice:  Undefined index: debug_mode in /home/arashaga/public_html/magestic/admin/ajaxtest2.php on line 49
+[29-Dec-2014 22:05:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/arashaga/public_html/magestic/admin/jui_datagrid.php on line 500
+[03-Jan-2015 15:02:42 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 15:02:44 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 15:28:20 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 15:29:44 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 15:29:53 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 15:59:44 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 16:00:11 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 16:01:38 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 7
+[03-Jan-2015 16:02:13 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[03-Jan-2015 16:03:19 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[03-Jan-2015 16:04:22 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[03-Jan-2015 16:06:36 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[03-Jan-2015 16:07:36 UTC] PHP Notice:  Undefined index: action in /home/arashaga/public_html/magestic/admin/ajax.php on line 6
+[03-Jan-2015 16:54:52 UTC] PHP Notice:  Use of undefined constant On - assumed 'On' in /home/arashaga/public_html/magestic/utility.php on line 491
+[03-Jan-2015 16:54:52 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 497
+[03-Jan-2015 16:56:25 UTC] PHP Notice:  Use of undefined constant On - assumed 'On' in /home/arashaga/public_html/magestic/utility.php on line 491
+[03-Jan-2015 16:56:25 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 497
+[03-Jan-2015 16:59:44 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 500
+[03-Jan-2015 17:00:34 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 500
+[03-Jan-2015 17:04:22 UTC] PHP Notice:  Array to string conversion in /home/arashaga/public_html/magestic/utility.php on line 498
+[03-Jan-2015 17:05:10 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 498
+[03-Jan-2015 17:05:34 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/arashaga/public_html/magestic/utility.php on line 498
